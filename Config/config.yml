@@ -1,0 +1,14 @@
+external_API:
+  sec_firm: http://10.3.1.214/backend/api/get_ipo_sponsors.php
+  pdf: http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=
+API:
+  port: 8007
+  host: 127.0.0.1
+  route:
+    main: 'cornerstone'
+
+log_file_path:  C:\Users\marcus\PycharmProjects\cornerstone_server\IPO_cornerstone.log
+search_word_file: C:\Users\marcus\PycharmProjects\cornerstone_server\Config\search_words.txt
+
+ExtractTable_pay_service:
+  API_key: p5lNdMtm5BNHvQs0WAzpTcGeSaQMzhYeAw6kUwdl

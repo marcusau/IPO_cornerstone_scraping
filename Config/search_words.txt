@@ -1,0 +1,124 @@
+sponsor	eng	Sole Sponsor
+sponsor	eng	Joint Sponsors
+sponsor	eng	Sponsor
+sponsor	chi	聯席保薦人
+sponsor	chi	獨家保薦人
+sponsor	chi	獨 家 保 薦 人
+sponsor	chi	保薦人
+underwriter	eng	Joint Representatives, Joint Global Coordinators, Joint Bookrunners and Joint Lead Managers
+underwriter	eng	Joint Global Coordinators, Joint Bookrunners and Joint Lead Managers
+underwriter	eng	Joint Representatives
+underwriter	eng	Sole Global Coordinator
+underwriter	eng	Joint Global Coordinators
+underwriter	chi	聯席代表、聯席全球協調人、聯席賬簿管理人兼聯席牽頭經辦人
+underwriter	chi	聯席全球協調人、聯席賬簿管理人及聯席牽頭經辦人
+underwriter	chi	聯席賬簿管理人及聯席牽頭經辦人
+underwriter	chi	聯 席 賬 簿 管 理 人 及 聯 席 牽 頭 經 辦 人
+underwriter	chi	聯 席 全 球 協 調 人
+underwriter	chi	獨 家 全 球 協 調 人
+underwriter	chi	聯席全球協調人
+underwriter	chi	聯席代表
+bookrunner	eng	Joint Bookrunners and Joint Lead Managers
+bookrunner	eng	Joint Bookrunners
+bookrunner	eng	Joint Lead Managers
+bookrunner	eng	Joint Lead Manager
+bookrunner	chi	聯席全球協調人、聯席賬簿管理人和聯席牽頭經辦人
+bookrunner	chi	聯席賬簿管理人及聯席牽頭經辦人
+bookrunner	chi	聯席全球協調人及聯席賬簿管理人
+bookrunner	chi	聯 席 賬 簿 管 理 人 及 聯 席 牽 頭 經 辦 人
+bookrunner	chi	聯 席 賬 簿 管 理 人
+bookrunner	chi	聯 席 牽 頭 經 辦 人
+bookrunner	chi	聯 席 全 球 協 調 人
+bookrunner	chi	聯席賬簿管理人
+bookrunner	chi	聯席牽頭經辦人
+bookrunner	chi	副經辦人
+financial_advisor	eng	Financial advisers
+financial_advisor	eng	Financial Advisers
+financial_advisor	eng	Financial Adviser
+financial_advisor	chi	財務顧問
+financial_advisor	chi	財 務 顧 問
+consult	eng	Internal control consultant
+consult	eng	Independent biological assets valuer
+consult	eng	Property Valuer
+consult	eng	Industry consultant
+consult	eng	Industry Consultant
+consult	eng	Compliance Adviser
+consult	chi	行 業 顧 問
+consult	chi	合 規 顧 問
+consult	chi	物 業 估 值 師
+consult	chi	內 部 控 制 顧 問
+consult	chi	生物資產估值師
+consult	chi	行業顧問
+consult	chi	合規顧問
+consult	chi	內部控制顧問
+consult	chi	香港證券登記處
+consult	chi	物業估值師
+consult	eng	Legal advisers to the Sponsor, the Joint Lead Managers, the Joint Bookrunners and the Underwriters
+consult	eng	Legal Advisers to the Joint Sponsors and the Underwriters
+consult	eng	Legal advisors to the Joint Sponsors and the Underwriters
+consult	eng	Legal advisors to the Underwriters
+consult	eng	Legal Advisers to the Sole Sponsor and the Underwriters
+consult	eng	Legal advisers to the Sole Sponsor and the Underwriters
+consult	eng	Legal adviser to the Sole Sponsor and the Underwriters
+consult	eng	Legal advisors to the Sole Sponsor
+consult	eng	Legal advisors to our Company
+consult	eng	Legal advisers to the Company
+consult	eng	Legal Advisers to our Company
+consult	eng	Legal Advisers to Our Company
+consult	eng	Our Special Legal Adviser
+consult	eng	Our Legal Advisers
+consult	chi	保薦人、聯席牽頭經辦人、聯席賬簿管理人及包銷商的法律顧問
+consult	chi	獨 家 保 薦 人 及 包 銷 商 的 法 律 顧 問
+consult	chi	聯 席 保 薦 人 及 包 銷 商 的 法 律 顧 問
+consult	chi	本公司的法律顧問
+consult	chi	本 公 司 的 法 律 顧 問
+consult	chi	本 公 司 法 律 顧 問
+consult	chi	本公司的法律顧問
+consult	chi	本公司法律顧問
+consult	chi	我們的特別法律顧問
+consult	chi	獨家保薦人及包銷商的法律顧問
+consult	chi	聯席保薦人及包銷商的法律顧問
+consult	chi	聯席保薦人及承銷商的法律顧問
+consult	chi	獨家保薦人及包銷商法律顧問
+consult	chi	聯席保薦人及承銷商法律顧問
+consult	chi	包銷商的法律顧問
+consult	chi	包銷商法律顧問
+consult	chi	我們的法律顧問
+consult	chi	法律顧問
+consult	eng	Reporting accountants and independent auditor
+consult	eng	Reporting accountants and auditors
+consult	eng	Reporting Accountant on YY Live
+consult	eng	Auditors and reporting accountants
+consult	eng	Auditor and Reporting Accountants
+consult	eng	Auditor and reporting accountant
+consult	eng	Reporting Accountant
+consult	chi	申報會計師及獨立核數師
+consult	chi	核數師及申報會計師
+consult	chi	審計師及申報會計師
+consult	chi	審 計 師 兼 申 報 會 計 師
+consult	chi	核 數 師 及 申 報 會 計 師
+consult	chi	申報會計師及審計師
+consult	chi	YY直播申報會計師
+consult	eng	Receiving Banks
+consult	eng	Receiving Bank
+consult	eng	Principal bank
+consult	chi	主要往來銀行
+consult	chi	收 款 銀 行
+consult	chi	收款銀行
+parties	eng	PARTIES INVOLVED IN THE GLOBAL OFFERING
+parties	eng	Directors And Parties Involved In The Share Offer
+parties	eng	DIRECTORS AND PARTIES INVOLVED IN THE SHARE OFFER
+parties	chi	董事及參與全球發售的各方
+parties	chi	董事及參與股份發售的各方
+parties	chi	董事及參與全球發售各方
+parties	chi	董事及參與股份發售各方
+parties	chi	參與全球發售的各方
+parties	chi	參與全球發售各方
+underwriting	eng	UNDERWRITING
+underwriting	eng	Underwriting
+underwriting	eng	UNDERWRITER
+underwriting	eng	Underwriter
+cornerstone	eng	cornerstone
+cornerstone	eng	Cornerstone
+cornerstone	eng	CORNERSTONE
+cornerstone	chi	基石投資

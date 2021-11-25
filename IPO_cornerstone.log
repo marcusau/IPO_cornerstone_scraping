@@ -1,0 +1,149 @@
+INFO: 2021-10-18 17:59:09,962: server.py: startup_event: server: remaining credit from pay service:  1695
+INFO: 2021-10-18 17:59:09,963: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-18 17:59:22,941: server.py: get_asa: server: receive request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-18 17:59:22,955: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmp8v8_k5fz\6669_ar.pdf 
+INFO: 2021-10-18 17:59:56,821: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmp8v8_k5fz\6669_ar.xlsx
+INFO: 2021-10-18 17:59:56,878: server.py: get_asa: server: 9 
+INFO: 2021-10-18 17:59:58,235: server.py: get_asa: server: remaining usage: 1676 pages
+INFO: 2021-10-19 14:29:32,449: server.py: startup_event: server: remaining credit from pay service:  1410
+INFO: 2021-10-19 14:29:32,450: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-19 14:29:50,946: server.py: get_asa: server: receive request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 14:29:50,981: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmp7chd8k5_\6669_ar.pdf 
+INFO: 2021-10-19 14:30:24,402: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmp7chd8k5_\6669_ar.xlsx
+INFO: 2021-10-19 14:30:25,820: server.py: get_asa: server: remaining credit from pay service: 1391 pages
+INFO: 2021-10-19 14:37:40,635: server.py: get_asa: server: receive request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 14:37:40,647: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmp7chd8k5_\6669_ar.pdf 
+INFO: 2021-10-19 14:38:14,111: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmp7chd8k5_\6669_ar.xlsx
+INFO: 2021-10-19 14:38:14,791: server.py: get_asa: server: remaining credit from pay service: 1372 pages
+ERROR: 2021-10-19 14:38:14,794: base_events.py: default_exception_handler: base_events: Task exception was never retrieved
+future: <Task finished coro=<worker_serve.<locals>._server_callback() done, defined at C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\hypercorn\asyncio\run.py:102> exception=ConnectionAbortedError(10053, '連線已被您主機上的軟體中止。', None, 10053, None)>
+Traceback (most recent call last):
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\hypercorn\asyncio\run.py", line 103, in _server_callback
+    await TCPServer(app, loop, config, reader, writer)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 83, in run
+    await self._close()
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 127, in _close
+    await self.writer.wait_closed()
+  File "C:\Program Files\Python37\lib\asyncio\streams.py", line 323, in wait_closed
+    await self._protocol._closed
+  File "C:\Program Files\Python37\lib\asyncio\selector_events.py", line 870, in write
+    n = self._sock.send(data)
+ConnectionAbortedError: [WinError 10053] 連線已被您主機上的軟體中止。
+INFO: 2021-10-19 14:54:58,935: server.py: startup_event: server: remaining credit from pay service:  1334
+INFO: 2021-10-19 14:54:58,935: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-19 14:55:08,057: server.py: get_asa: server: receive request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 14:55:08,085: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmp1z4ygst6\6669_ar.pdf 
+INFO: 2021-10-19 14:55:41,808: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmp1z4ygst6\6669_ar.xlsx
+INFO: 2021-10-19 14:55:42,495: server.py: get_asa: server: remaining credit from pay service: 1315 pages
+INFO: 2021-10-19 14:56:57,166: server.py: startup_event: server: remaining credit from pay service:  1315
+INFO: 2021-10-19 14:56:57,167: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-19 14:56:59,554: server.py: get_asa: server: receive request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 14:56:59,584: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpkad_htaz\6669_ar.pdf 
+INFO: 2021-10-19 14:57:32,897: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmpkad_htaz\6669_ar.xlsx
+INFO: 2021-10-19 14:57:34,338: server.py: get_asa: server: remaining credit from pay service: 1296 pages
+INFO: 2021-10-19 15:09:55,486: server.py: startup_event: server: remaining credit from pay service:  1277
+INFO: 2021-10-19 15:09:55,487: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-19 15:10:12,484: server.py: get_asa: server: receive request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 15:10:12,518: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmp_l01go0k\6669_ar.pdf 
+INFO: 2021-10-19 15:10:46,689: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmp_l01go0k\6669_ar.xlsx
+INFO: 2021-10-19 15:10:47,769: server.py: get_asa: server: remaining credit from pay service: 1258 pages
+INFO: 2021-10-19 18:21:04,379: server.py: startup_event: server: remaining credit from pay service:  916
+INFO: 2021-10-19 18:21:04,380: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-19 18:21:17,957: server.py: get_asa: server: receive request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 18:21:17,994: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpvl_n4x_s\6669_ar.pdf 
+INFO: 2021-10-19 18:21:51,885: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmpvl_n4x_s\6669_ar.xlsx
+INFO: 2021-10-19 18:21:53,019: server.py: get_asa: server: remaining credit from pay service: 897 pages
+INFO: 2021-10-19 18:23:20,686: server.py: startup_event: server: remaining credit from pay service:  897
+INFO: 2021-10-19 18:23:20,686: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-19 18:24:31,452: server.py: startup_event: server: remaining credit from pay service:  897
+INFO: 2021-10-19 18:24:31,453: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-19 18:24:35,818: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 18:24:35,848: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmphncb4boy\6669_ar.pdf 
+INFO: 2021-10-19 18:25:50,184: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmphncb4boy\6669_ar.xlsx
+INFO: 2021-10-19 18:25:51,669: server.py: get_asa: server: remaining credit from pay service: 878 pages
+INFO: 2021-10-19 18:27:46,015: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-19 18:27:46,027: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmphncb4boy\6669_ar.pdf 
+INFO: 2021-10-19 18:28:30,305: paid_service.py: pdf2excel_function: paid_service: 9 tables are saved in excel path: C:\Users\marcus\AppData\Local\Temp\tmphncb4boy\6669_ar.xlsx
+INFO: 2021-10-19 18:28:31,792: server.py: get_asa: server: remaining credit from pay service: 859 pages
+INFO: 2021-10-20 16:34:30,628: server.py: startup_event: server: remaining credit from pay service:  -516
+INFO: 2021-10-20 16:34:30,629: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-20 16:35:08,494: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+ERROR: 2021-10-20 16:35:08,496: logging.py: exception: logging: Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\hypercorn\asyncio\context.py", line 39, in _handle
+    await invoke_asgi(app, scope, receive, send)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\hypercorn\utils.py", line 239, in invoke_asgi
+    await app(scope, receive, send)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\fastapi\routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\marcus\Desktop\cornerstone_server\lib\site-packages\starlette\concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Program Files\Python37\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:/Users/marcus/PycharmProjects/cornerstone_server/server.py", line 99, in get_asa
+    asa_handle.create_blank_xlsx(asa.excel_path)
+  File "C:\Users\marcus\PycharmProjects\cornerstone_server\util\asa_handle.py", line 72, in create_blank_xlsx
+    wb = openpyxl.Workbook()
+NameError: name 'openpyxl' is not defined
+INFO: 2021-10-20 16:35:46,848: server.py: startup_event: server: remaining credit from pay service:  -516
+INFO: 2021-10-20 16:35:46,849: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-20 16:35:53,958: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-20 16:36:00,245: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-21 17:09:15,020: server.py: startup_event: server: remaining credit from pay service:  -516
+INFO: 2021-10-21 17:09:15,041: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-21 17:09:36,354: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :haha
+INFO: 2021-10-21 17:09:36,366: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpqaeytb4c\6669_haha.pdf 
+INFO: 2021-10-21 17:09:39,189: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:09:39,189: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, Please check pdf file type :haha or credit limit :-516
+INFO: 2021-10-21 17:11:08,966: server.py: startup_event: server: remaining credit from pay service:  -516
+INFO: 2021-10-21 17:11:08,967: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-21 17:11:13,537: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :haha
+INFO: 2021-10-21 17:11:13,551: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmp9sz14u98\6669_haha.pdf 
+INFO: 2021-10-21 17:11:16,003: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:11:16,003: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, Please check pdf file type :haha or credit limit :-516
+INFO: 2021-10-21 17:11:58,471: server.py: startup_event: server: remaining credit from pay service:  -516
+INFO: 2021-10-21 17:11:58,472: logging.py: info: logging: Running on http://127.0.0.1:8007 (CTRL + C to quit)
+INFO: 2021-10-21 17:12:07,949: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :haha
+INFO: 2021-10-21 17:12:07,962: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpw6fy_q97\6669_haha.pdf 
+INFO: 2021-10-21 17:12:10,364: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:12:10,364: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, Please check pdf file type :haha or credit limit :-516
+INFO: 2021-10-21 17:13:46,067: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-21 17:13:46,081: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpw6fy_q97\6669_ar.pdf 
+INFO: 2021-10-21 17:13:50,875: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:13:50,875: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, Please check pdf file type :ar or credit limit :-516
+INFO: 2021-10-21 17:14:20,851: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF, file type :prospectus
+INFO: 2021-10-21 17:14:21,188: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpw6fy_q97\6669_prospectus.pdf 
+INFO: 2021-10-21 17:14:25,094: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:14:25,094: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF, Please check pdf file type :prospectus or credit limit :-516
+INFO: 2021-10-21 17:14:52,875: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF, file type :prospectus
+INFO: 2021-10-21 17:14:53,295: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpw6fy_q97\6669_prospectus.pdf 
+INFO: 2021-10-21 17:14:57,614: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:14:57,614: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF, Please check pdf file type :prospectus or credit limit :-516
+INFO: 2021-10-21 17:15:10,606: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF, file type :prospectus
+INFO: 2021-10-21 17:15:10,954: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpw6fy_q97\6669_prospectus.pdf 
+INFO: 2021-10-21 17:15:15,883: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:15:15,883: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210812/Attachment/HKEX-EPS_20210812_9890632_0.PDF, Please check pdf file type :prospectus or credit limit :-516
+INFO: 2021-10-21 17:28:01,602: server.py: get_asa: server: receive get request info : stockcode :6669, url path: IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, file type :ar
+INFO: 2021-10-21 17:28:01,623: server.py: get_asa: server: pdf file from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF is save at C:\Users\marcus\AppData\Local\Temp\tmpw6fy_q97\6669_ar.pdf 
+INFO: 2021-10-21 17:28:05,139: server.py: get_asa: server: remaining credit from pay service: -516 pages
+INFO: 2021-10-21 17:28:05,139: server.py: get_asa: server: error on table extraction from http://10.1.8.151/InfoPool-ASA/SingleFileTx.do?reqid=802b&server=FILESERVER&filepath=IIS/2021/20210823/Attachment/HKEX-EPS_20210823_9903476_2.PDF, Please check pdf file type :ar or credit limit :-516
